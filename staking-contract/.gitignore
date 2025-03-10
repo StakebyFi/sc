@@ -1,0 +1,10 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/wallet/wallet-owner.pem
+/output
+/target
+/meta
+/wasm
+/upgrade-devnet.interaction.json
+/deploy-devnet.interaction.json
