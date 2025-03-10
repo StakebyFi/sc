@@ -113,6 +113,16 @@ Run the tests using:
 cargo test
 ```
 
+### 🛫 Deploy
+Run the tests using:
+```sh
+mxpy --verbose contract deploy --bytecode=./output/staking-contract.wasm \
+    --recall-nonce --pem=./wallet/wallet-owner.pem \
+    --gas-limit=10000000 \
+    --send --outfile="deploy-devnet.interaction.json" --wait-result \
+    --proxy=https://devnet-gateway.multiversx.com --chain=D
+```
+
 ## 📂 Project Structure
 ```
 staking-contract/
